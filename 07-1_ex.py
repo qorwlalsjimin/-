@@ -9,12 +9,20 @@
 ## 명령 매개변수
 #print(sys.argv)
 
-from datetime import datetime
-now = datetime.now()
+#from datetime import datetime
+#now = datetime.now()
+#now = datetime(2000, 1, 1, 1, 1, 1)
+#print(now)
+#
+#print(now.year)
+#print(now.month)
+#print(now.day)
+#print(now.hour)
+#print(now.minute)
+#print(now.second)
 
-print(now.year)
-print(now.month)
-print(now.day)
-print(now.hour)
-print(now.minute)
-print(now.second)
+import time
+
+print("A")
+time.sleep(2)
+print("B")
