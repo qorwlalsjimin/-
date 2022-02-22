@@ -4,11 +4,17 @@
 #print(pi)
 #print(sin(10))
 
-import sys
+#import sys
 
-# 명령 매개변수
-print(sys.argv)
+## 명령 매개변수
+#print(sys.argv)
 
-#import datetime
-#now = datetime.datetime.now()
-#print(now)
+from datetime import datetime
+now = datetime.now()
+
+print(now.year)
+print(now.month)
+print(now.day)
+print(now.hour)
+print(now.minute)
+print(now.second)
