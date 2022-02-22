@@ -1,5 +1,5 @@
 #math = __import__("math")
-import math
+import math as 수학
 
-print(math.pi)
-print(math.sin(10))
+print(수학.pi)
+print(수학.sin(10))
