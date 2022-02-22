@@ -21,8 +21,15 @@
 #print(now.minute)
 #print(now.second)
 
-import time
+#import time
+#
+#print("A")
+#time.sleep(2)
+#print("B")
 
-print("A")
-time.sleep(2)
-print("B")
+from urllib import request
+
+target = request.urlopen("http://naver.com")
+content = target.read()
+
+print(content)
