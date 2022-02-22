@@ -42,3 +42,6 @@ print(choice(["이것도","되려낭","궁금","요요","맨맨"]))
 print(shuffle([1,2,3,4,5]))
 print(sample([1,2,3,4,5], k=2))
 
+hi = [1, 2, 3, 4,]
+shuffle(hi)
+print(hi)
