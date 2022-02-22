@@ -27,9 +27,18 @@
 #time.sleep(2)
 #print("B")
 
-from urllib import request
+#from urllib import request
+#
+#target = request.urlopen("http://naver.com")
+#content = target.read()
+#
+#print(content)
 
-target = request.urlopen("http://naver.com")
-content = target.read()
+from random import *
+print(random())
+print(int(uniform(10, 20))+1)
+print(uniform(10, 20))
+print(choice(["이것도","되려낭","궁금","요요","맨맨"]))
+print(shuffle([1,2,3,4,5]))
+print(sample([1,2,3,4,5], k=2))
 
-print(content)
